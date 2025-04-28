@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://task-git-main-arturomens-projects.vercel.app:8000";
 
 // utils/apiPaths.js
 export const API_PATHS = {
