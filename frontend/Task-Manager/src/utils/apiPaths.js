@@ -1,4 +1,4 @@
-export const BASE_URL = "https://task-git-main-arturomens-projects.vercel.app:8000";
+export const BASE_URL = "https://task-beta-topaz.vercel.app";
 
 // utils/apiPaths.js
 export const API_PATHS = {
@@ -19,7 +19,7 @@ export const API_PATHS = {
   TASKS: {
     GET_DASHBOARD_DATA: "/api/tasks/dashboard-data", // Get Dashboard Data
     GET_USER_DASHBOARD_DATA: "/api/tasks/user-dashboard-data", // Get User Dashboard Data
-    GET_ALL_TASKS: "/api/tasks", // Get all tasks (Admin: all, User: only assigned tasks)
+    GET_ALL_TASKS: "/api/tasks", //   
     GET_TASK_BY_ID: (taskId) => `/api/tasks/${taskId}`, // Get task by ID
     CREATE_TASK: "/api/tasks", // Create a new task (Admin only)
     UPDATE_TASK: (taskId) => `/api/tasks/${taskId}`, // Update task details
